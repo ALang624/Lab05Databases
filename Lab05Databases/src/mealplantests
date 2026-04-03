@@ -1,0 +1,23 @@
+TEST CASE 1 - Working Path
+- User Opens Up Menu, Selects Meal Path
+- User Inputs Family Size of 4, Validation Succeeds
+- User Receives List of Recipe Names
+- User Enters Recipe Name for Each Day
+- User Recieves Meal Plan
+
+TEST CASE 2 - Family Size Fails
+- User Opens Menu, Selects Meal Path
+- User Inputs Family Size of 0
+- Validation Fails, Rejected
+- User Asked to Reinput Family Size
+- User Inputs 7
+- Validations Fails Again, Asked to Reinput
+- User Inputs 6 
+- Validaton Succeeds, Continues as Normal
+
+TEST CASE 3 - Recipe Doesn't Exist
+- User Reaches Meal Planning
+- User Enters Recipe Name not in List
+- findRecipeName Returns Null
+- User Enters Recipe Name 
+- Recipe Name Accepted, Continues As Normal
